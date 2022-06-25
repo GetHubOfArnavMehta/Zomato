@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.top
+{
+    background-image: url(/css/Zomato/Top\ image.avif);
+    height:420px;
+    width: 1280px;
+}
+.top-top
+{
+    padding-top: 15px;
+}
+.top-getapp:hover
+{
+    color: rgb(252,128,25);
+}
+.top-getapp
+{
+    text-decoration: none;
+    color: white;
+    Margin-left: 75px;
+    font-size: 15px;
+}
+.Login
+{
+    Margin-left: 850px;
+
+}
+.Logo{
+    animation:UpDown 1.5s ease;
+}
+.top-text{
+    animation:UpDown 1.5s ease;
+}
+@keyframes UpDown {
+    0%{opacity: 0;transform: translatey(-100px);}
+    100%{opacity: 1;transform: translatey(0);}
+}
+@keyframes disepering {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+button:hover
+{
+    color: rgb(252,128,25);
+}
+button
+{
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.top-mid
+{
+    text-align: center;
+}
+.Logo
+{
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    margin-top: 65px;
+}
+.top-text
+{
+   color: white; 
+   font-size: 35px;
+}
+#Text-input
+{
+    border-radius:10px;
+    width:750px;
+    height: 50px;
+}
+.table1
+{
+padding-left: 5px;
+padding-right: 5px;
+}
+.Table1-image
+{
+    height: 180px;
+    width: 270px;
+    border-radius: 15px;
+    transition: 400ms;
+}
+.Table1-h2
+{
+    text-align: center;
+}
+.main-table
+{
+    padding-top: 35px;
+}
+.table2-2:hover{
+    transform: scale(0.9);
+}
+.table2-2
+{
+    height: 320px;
+    width: 270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    transition: 400ms;
+}
+.table21
+{
+    background-image: url(/css/Zomato/image21.jpg);
+    background-size:contain;
+    position: relative;
+    color: white;
+}
+.table22
+{
+    background-image: url(/css/Zomato/image22.jpg);
+    background-size:cover;
+    position: relative;
+    color: white;
+}
+.table23
+{
+    background-image: url(/css/Zomato/image23.webp);
+    background-size:cover;
+    position: relative;
+}
+.table24
+{
+    background-image: url(/css/Zomato/image24.jpg);
+    background-size:cover;
+    position: relative;
+    color: white;
+}
+.Table2-h2
+{
+    text-align: left;
+    position: absolute;
+    bottom: 5px;
+}
+.Table1-image:hover
+{
+    transform: scale(1.11);
+}
+.mid-bottom
+{
+    animation:disepering 1.5s ease;
+}
